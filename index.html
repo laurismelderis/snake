@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Snake</title>
+	<style>
+		body {
+			margin: 0;
+		}
+		canvas {
+			border: 1px solid black;
+		}
+		#main {
+			text-align: center;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		#score {
+			text-align: right;
+			width: 480px;
+			margin: 0 auto;
+			font-size: 24px;
+		}
+	</style>
+</head>
+<body>
+	<div id="main">
+		<p id="score"></p>
+		<canvas id="gameCanvas" tabindex="1" width="480" height="480"></canvas>
+		<button type="button" onclick="next()">Next</button>
+	</div>
+	<script type="text/javascript" src="candy.js"></script>
+	<script type="text/javascript" src="snake.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
